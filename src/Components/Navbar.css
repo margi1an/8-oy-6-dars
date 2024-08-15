@@ -1,0 +1,187 @@
+.navbar {
+    width: 274px;
+    height: 568px;
+    top: 121px;
+    left: 266px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 29px;
+    margin-top: 20px;
+    background-image: url('../../public/Oval.png');
+}
+
+.container {
+    width: 1000px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 600px;
+    top: 105px;
+    left: 250px;
+    gap: 0px;
+    opacity: 0px;
+    background: #fff;
+    margin-left: 80px;
+    border-radius: 8px;
+    display: flex;
+    gap: 100px;
+
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.text {
+    padding: 40px;
+}
+
+.step1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.stape1 h1 {}
+
+.button button {
+    width: 53px;
+    height: 53px;
+    gap: 0px;
+    opacity: 0px;
+    background: #BEE2FD;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.09px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.oneText h1 {
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 13.79px;
+    text-align: left;
+    color: #ABBCFF;
+    letter-spacing: 1px;
+}
+
+.twoText h1 {
+    font-family: Ubuntu;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 16.09px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+}
+.two{
+margin-top: 20px;
+}
+.personal p{
+font-family: Ubuntu;
+font-size: 35px;
+font-weight: 700;
+line-height: 36.77px;
+text-align: left;
+color: #022959;
+}
+.Please h1{
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+color: #9699AA;
+margin-top: -20px;
+}
+.name h3{
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.09px;
+text-align: left;
+color: #022959;
+
+}
+.Name {
+    margin-top: 30px;
+}
+.input input{
+    width: 450px;
+height: 48px;
+top: 24px;
+gap: 0px;
+opacity: 0px;
+padding-left: 10px;
+border: 1px solid lightgray;
+border-radius: 8px;
+}
+/* From Uiverse.io by adamgiebl */ 
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: #022959;
+
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(2.5em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(6em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  .buttonn{
+    margin-top: 72px;
+    margin-left: 300px;
+  }
+  

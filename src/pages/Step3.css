@@ -1,0 +1,69 @@
+.carrt {
+    width: 450px;
+    height: 71px;
+    top: 269px;
+    left: 640px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+}
+
+.textss {
+    display: flex;
+    padding: 10px;
+    gap: 25px;
+}
+
+.textss input {
+    width: 20px;
+    height: 20px;
+    top: 30px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: 12px;
+    border-radius: 8px;
+}
+
+.online h1 {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.38px;
+    text-align: left;
+    color: #022959;
+    margin-top: 5px;
+}
+
+.carrt:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.online h2 {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9699AA;
+    margin-top: -5px;
+
+}
+
+.price h1 {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+    margin-left: 100px;
+    color: blue;
+}
